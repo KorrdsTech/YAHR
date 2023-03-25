@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BoyIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:InvisibleDust"
+      },
+      {
+        "value": "CUSTOM:SkinBook"
+      },
+      {
+        "value": "CUSTOM:SteveSoul"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NecronomiconTomoII"
+    },
+    "name": "necronomicon_tomo_ii_recipe",
+    "namespace": "mod"
+  }
+}

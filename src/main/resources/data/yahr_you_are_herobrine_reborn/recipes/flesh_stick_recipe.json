@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "1": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "2": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:flesh_stick",
+    "count": 1
+  }
+}

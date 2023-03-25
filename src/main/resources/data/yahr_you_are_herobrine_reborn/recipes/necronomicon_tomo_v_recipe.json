@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_powder"
+    },
+    "1": {
+      "item": "yahr_you_are_herobrine_reborn:boy_ingot"
+    },
+    "2": {
+      "item": "minecraft:blaze_powder"
+    },
+    "3": {
+      "item": "yahr_you_are_herobrine_reborn:invisible_dust"
+    },
+    "4": {
+      "item": "yahr_you_are_herobrine_reborn:skin_book"
+    },
+    "5": {
+      "item": "yahr_you_are_herobrine_reborn:steve_soul"
+    },
+    "6": {
+      "item": "minecraft:ender_eye"
+    },
+    "7": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "8": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:necronomicon_tomo_v",
+    "count": 1
+  }
+}

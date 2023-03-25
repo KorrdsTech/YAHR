@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "1": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "2": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "3": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "6": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "7": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    },
+    "8": {
+      "item": "yahr_you_are_herobrine_reborn:corazon"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:evil_diamond_matter",
+    "count": 1
+  }
+}

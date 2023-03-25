@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "yahr_you_are_herobrine_reborn:necronomicon_tomo_iii"
+    },
+    "title": {
+      "translate": "advancements.you_are_herobrine.title"
+    },
+    "description": {
+      "translate": "advancements.you_are_herobrine.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "you_are_herobrine": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "minecraft:story/root"
+}

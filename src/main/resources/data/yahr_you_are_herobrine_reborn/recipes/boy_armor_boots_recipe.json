@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "yahr_you_are_herobrine_reborn:boy_ingot"
+    },
+    "2": {
+      "item": "yahr_you_are_herobrine_reborn:boy_ingot"
+    },
+    "3": {
+      "item": "yahr_you_are_herobrine_reborn:boy_ingot"
+    },
+    "5": {
+      "item": "yahr_you_are_herobrine_reborn:boy_ingot"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:boy_armor_boots",
+    "count": 1
+  }
+}

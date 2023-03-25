@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "1": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "2": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "3": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "5": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "6": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "8": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:corazon_armor_armor_leggings",
+    "count": 1
+  }
+}

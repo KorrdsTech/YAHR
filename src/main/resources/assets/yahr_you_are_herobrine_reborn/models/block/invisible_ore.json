@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yahr_you_are_herobrine_reborn:blocks/invisibleore",
+    "up": "yahr_you_are_herobrine_reborn:blocks/invisibleore",
+    "north": "yahr_you_are_herobrine_reborn:blocks/invisibleore",
+    "east": "yahr_you_are_herobrine_reborn:blocks/invisibleore",
+    "south": "yahr_you_are_herobrine_reborn:blocks/invisibleore",
+    "west": "yahr_you_are_herobrine_reborn:blocks/invisibleore",
+    "particle": "yahr_you_are_herobrine_reborn:blocks/invisibleore"
+  },
+  "render_type": "solid"
+}

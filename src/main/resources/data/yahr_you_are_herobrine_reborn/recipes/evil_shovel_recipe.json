@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "yahr_you_are_herobrine_reborn:evil_diamond"
+    },
+    "1": {
+      "item": "yahr_you_are_herobrine_reborn:evil_flesh_stick"
+    },
+    "2": {
+      "item": "yahr_you_are_herobrine_reborn:evil_flesh_stick"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:evil_shovel",
+    "count": 1
+  }
+}

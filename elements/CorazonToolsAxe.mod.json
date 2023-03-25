@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "setcorazonaxe",
+    "customModelName": "Normal",
+    "name": "Corazon Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:YAH"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 16,
+    "damageVsEntity": 15.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CorazonIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

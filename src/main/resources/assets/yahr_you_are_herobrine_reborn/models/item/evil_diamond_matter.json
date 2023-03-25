@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "yahr_you_are_herobrine_reborn:items/evildiamondmatter"
+  }
+}

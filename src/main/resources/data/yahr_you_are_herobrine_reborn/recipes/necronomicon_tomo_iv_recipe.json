@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_rod"
+    },
+    "1": {
+      "item": "minecraft:blaze_rod"
+    },
+    "2": {
+      "item": "minecraft:blaze_rod"
+    },
+    "3": {
+      "item": "yahr_you_are_herobrine_reborn:invisible_dust"
+    },
+    "4": {
+      "item": "yahr_you_are_herobrine_reborn:skin_book"
+    },
+    "5": {
+      "item": "yahr_you_are_herobrine_reborn:steve_soul"
+    },
+    "6": {
+      "item": "minecraft:blaze_rod"
+    },
+    "7": {
+      "item": "minecraft:blaze_rod"
+    },
+    "8": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:necronomicon_tomo_iv",
+    "count": 1
+  }
+}

@@ -1,0 +1,1188 @@
+{
+  "mod_elements": [
+    {
+      "name": "BoyArmor",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boy_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/boy_armor_boots.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/boy_armor_chestplate.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/BoyArmorItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/boy_armor_helmet.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/boy_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Steve",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/forge/biome_modifier/steve_biome_modifier.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/steve_spawn_egg.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/entity/SteveEntity.java",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/client/renderer/SteveRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/procedures/NecronomiconRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Necronomicon",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/NecronomiconItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/necronomicon.json"
+        ]
+      }
+    },
+    {
+      "name": "YAH",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yah",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SteveSoul",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_soul",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/steve_soul.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/SteveSoulItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Corazon",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/CorazonItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CorazonIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_ingot.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/CorazonIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon.json"
+        ]
+      }
+    },
+    {
+      "name": "BoyIngot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boy_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/boy_ingot.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/BoyIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IceRubyOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/block/IceRubyOreBlock.java",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/world/features/ores/IceRubyOreFeature.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/ice_ruby_ore.json",
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/forge/biome_modifier/ice_ruby_ore_biome_modifier.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/block/ice_ruby_ore.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/blockstates/ice_ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BoyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boy_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/boy_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boy_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/boy_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boy_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/boy_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boy_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/boy_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsPickaxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_tools_pickaxe.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/CorazonToolsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsAxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/CorazonToolsAxeItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_tools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsSword",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_tools_sword.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/CorazonToolsSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsShovel",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/CorazonToolsShovelItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_tools_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsHoe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_tools_hoe.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/CorazonToolsHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_tools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_tools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_tools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_tools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_tools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonArmorArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_armor_armor_boots.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/CorazonArmorArmorItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_armor_armor_leggings.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_armor_armor_chestplate.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/corazon_armor_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_armor_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_armor_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorazonArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corazon_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/corazon_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FleshStick",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/flesh_stick.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/FleshStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EvilFleshStick",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_flesh_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/evil_flesh_stick.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/EvilFleshStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EvilFleshStickRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_flesh_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/evil_flesh_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SkinBook",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skin_book",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/SkinBookItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/skin_book.json"
+        ]
+      }
+    },
+    {
+      "name": "InvisibleOre",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/blockstates/invisible_ore.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/block/invisible_ore.json",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/invisible_ore.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/block/InvisibleOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "InvisibleDust",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/InvisibleDustItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/invisible_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "NecronominTomoI",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomin_tomo_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/necronomin_tomo_i.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeInvisibleDust",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_invisible_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/recipe_invisible_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilDiamond",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/evil_diamond.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/EvilDiamondItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EvilDiamondMatter",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_diamond_matter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/EvilDiamondMatterItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/evil_diamond_matter.json"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoII",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_ii",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/necronomicon_tomo_ii.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/NecronomiconTomoIIItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoIIRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_ii_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/necronomicon_tomo_ii_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SkinBookRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skin_book_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/skin_book_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FleshStickRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/flesh_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilDiamondMatterRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_diamond_matter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/evil_diamond_matter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilDiamondRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_diamond_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/evil_diamond_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilPickaxe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/EvilPickaxeItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/evil_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilAxe",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/EvilAxeItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/evil_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilSword",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/EvilSwordItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/evil_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilShovel",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/evil_shovel.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/EvilShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EvilHoe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/EvilHoeItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/evil_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/evil_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilAxeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/evil_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilSwordRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/evil_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilShovelRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/evil_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilHoeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/evil_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoIIRightclicked",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_ii_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/procedures/NecronomiconTomoIIRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoIII",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_iii",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/necronomicon_tomo_iii.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/NecronomiconTomoIIIItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoIIIRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_iii_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/necronomicon_tomo_iii_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoIIIRightclicked",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_iii_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/procedures/NecronomiconTomoIIIRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SteveHouse",
+      "type": "structure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_house",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/world/features/SteveHouseFeature.java",
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/forge/biome_modifier/steve_house_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "VillagersDrop",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagers_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/procedures/VillagersDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerBurnsOnSunlight",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_burns_on_sunlight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/procedures/PlayerBurnsOnSunlightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hunter",
+      "type": "livingentity",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/hunter_spawn_egg.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/client/renderer/HunterRenderer.java",
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/forge/biome_modifier/hunter_biome_modifier.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/entity/HunterEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "YouAreHerobrine",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_are_herobrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/advancements/you_are_herobrine.json"
+        ]
+      }
+    },
+    {
+      "name": "SwitchTimeCycle",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_time_cycle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/procedures/SwitchTimeCycleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "advancement",
+            "type": "advancement"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spider",
+      "type": "livingentity",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/client/renderer/SpiderRenderer.java",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/entity/SpiderEntity.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/spider_spawn_egg.json",
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/forge/biome_modifier/spider_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoIV",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_iv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/NecronomiconTomoIVItem.java",
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/necronomicon_tomo_iv.json"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoIVRightclicked",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_iv_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/procedures/NecronomiconTomoIVRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoIVRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_iv_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/necronomicon_tomo_iv_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoVRightclicked",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_v_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/procedures/NecronomiconTomoVRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoV",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_v",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yahr_you_are_herobrine_reborn/models/item/necronomicon_tomo_v.json",
+          "src/main/java/net/mcreator/yahryouareherobrinereborn/item/NecronomiconTomoVItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NecronomiconTomoVRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronomicon_tomo_v_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yahr_you_are_herobrine_reborn/recipes/necronomicon_tomo_v_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.yahr_you_are_herobrine_reborn.corazon_ingot": "Corazon Ingot",
+      "item.yahr_you_are_herobrine_reborn.corazon_tools_pickaxe": "Corazon Pickaxe",
+      "item.yahr_you_are_herobrine_reborn.necronomicon_tomo_iv": "Necronomicon Tomo IV",
+      "item.yahr_you_are_herobrine_reborn.necronomicon": "Necronomicon Tomo I",
+      "item.yahr_you_are_herobrine_reborn.flesh_stick": "Flesh Stick",
+      "entity.yahr_you_are_herobrine_reborn.spider": "Spider",
+      "item.yahr_you_are_herobrine_reborn.evil_pickaxe": "Evil Pickaxe",
+      "item.yahr_you_are_herobrine_reborn.boy_ingot": "Ice Ruby",
+      "item.yahr_you_are_herobrine_reborn.evil_diamond": "Evil Diamond",
+      "entity.yahr_you_are_herobrine_reborn.steve": "Steve",
+      "item.yahr_you_are_herobrine_reborn.corazon": "Corazon",
+      "item.yahr_you_are_herobrine_reborn.corazon_armor_armor_leggings": "Corazon Leggings",
+      "advancements.you_are_herobrine.descr": "You became herobrine in your world",
+      "block.yahr_you_are_herobrine_reborn.ice_ruby_ore": "Ice Ruby Ore",
+      "entity.yahr_you_are_herobrine_reborn.hunter": "Hunter",
+      "item.yahr_you_are_herobrine_reborn.necronomicon_tomo_ii": "Necronomicon Tomo II",
+      "item.yahr_you_are_herobrine_reborn.evil_hoe": "Evil Hoe",
+      "item.yahr_you_are_herobrine_reborn.evil_sword": "Evil Sword",
+      "item.yahr_you_are_herobrine_reborn.evil_shovel": "Evil Shovel",
+      "item.yahr_you_are_herobrine_reborn.corazon_armor_armor_chestplate": "Corazon Chestplate",
+      "item.yahr_you_are_herobrine_reborn.evil_flesh_stick": "Evil Flesh Stick",
+      "item.yahr_you_are_herobrine_reborn.hunter_spawn_egg": "Hunter Spawn Egg",
+      "item.yahr_you_are_herobrine_reborn.evil_axe": "Evil Axe",
+      "item.yahr_you_are_herobrine_reborn.invisible_dust": "Invisible Dust",
+      "advancements.you_are_herobrine.title": "You Are Herobrine",
+      "item.yahr_you_are_herobrine_reborn.spider_spawn_egg": "Spider Spawn Egg",
+      "item.yahr_you_are_herobrine_reborn.corazon_tools_hoe": "Corazon Hoe",
+      "block.yahr_you_are_herobrine_reborn.invisible_ore": "Invisible Ore",
+      "item.yahr_you_are_herobrine_reborn.corazon_armor_armor_helmet": "Corazon Helmet",
+      "item.yahr_you_are_herobrine_reborn.skin_book": "Skin Book",
+      "itemGroup.tabyah": "YAH",
+      "item.yahr_you_are_herobrine_reborn.boy_armor_leggings": "Ice Ruby Leggings",
+      "item.yahr_you_are_herobrine_reborn.corazon_tools_shovel": "Corazon Shovel",
+      "item.yahr_you_are_herobrine_reborn.corazon_armor_armor_boots": "Corazon Boots",
+      "item.yahr_you_are_herobrine_reborn.boy_armor_boots": "Ice Ruby Boots",
+      "item.yahr_you_are_herobrine_reborn.steve_spawn_egg": "Steve Spawn Egg",
+      "item.yahr_you_are_herobrine_reborn.boy_armor_chestplate": "Ice Ruby Body",
+      "item.yahr_you_are_herobrine_reborn.corazon_tools_sword": "Corazon Sword",
+      "item.yahr_you_are_herobrine_reborn.evil_diamond_matter": "Evil Diamond Matter",
+      "item.yahr_you_are_herobrine_reborn.boy_armor_helmet": "Ice Ruby Helmet",
+      "item.yahr_you_are_herobrine_reborn.steve_soul": "Steve Soul",
+      "item.yahr_you_are_herobrine_reborn.necronomicon_tomo_v": "Necronomicon Tomo V",
+      "item.yahr_you_are_herobrine_reborn.necronomicon_tomo_iii": "Necronomicon Tomo III",
+      "item.yahr_you_are_herobrine_reborn.corazon_tools_axe": "Corazon Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "yahr_you_are_herobrine_reborn",
+    "modName": "[YAHR] You are Herobrine REBORN",
+    "version": "1.0.0",
+    "author": "mathe, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.yahryouareherobrinereborn",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

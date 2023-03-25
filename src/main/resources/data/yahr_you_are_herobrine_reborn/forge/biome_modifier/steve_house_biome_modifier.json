@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "yahr_you_are_herobrine_reborn:steve_house",
+  "step": "surface_structures"
+}

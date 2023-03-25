@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BoyIngot"
+      },
+      {
+        "value": "CUSTOM:BoyIngot"
+      },
+      {
+        "value": "CUSTOM:BoyIngot"
+      },
+      {
+        "value": "CUSTOM:BoyIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BoyIngot"
+      },
+      {
+        "value": "CUSTOM:BoyIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BoyIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BoyArmor.legs"
+    },
+    "name": "boy_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "2": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "3": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "4": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "5": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "6": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "7": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "8": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:corazon_armor_armor_chestplate",
+    "count": 1
+  }
+}

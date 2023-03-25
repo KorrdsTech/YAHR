@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="yahr_you_are_herobrine_reborn"
+version="1.0.0"
+displayName="[YAHR] You are Herobrine REBORN"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="mathe, MCreator"
+
+[[dependencies.yahr_you_are_herobrine_reborn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

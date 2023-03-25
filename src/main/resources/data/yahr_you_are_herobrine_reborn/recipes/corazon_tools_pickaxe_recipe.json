@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "1": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "2": {
+      "item": "yahr_you_are_herobrine_reborn:corazon_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:corazon_tools_pickaxe",
+    "count": 1
+  }
+}

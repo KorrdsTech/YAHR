@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "setevildiamondpickaxe",
+    "customModelName": "Normal",
+    "name": "Evil Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:YAH"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 26.0,
+    "attackSpeed": 1.0,
+    "enchantability": 60,
+    "damageVsEntity": 8.0,
+    "usageCount": 1164,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EvilDiamond"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

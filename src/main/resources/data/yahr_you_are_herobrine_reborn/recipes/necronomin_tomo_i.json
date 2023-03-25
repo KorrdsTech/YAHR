@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "yahr_you_are_herobrine_reborn:invisible_dust"
+    },
+    "1": {
+      "item": "yahr_you_are_herobrine_reborn:skin_book"
+    },
+    "2": {
+      "item": "yahr_you_are_herobrine_reborn:steve_soul"
+    }
+  },
+  "result": {
+    "item": "yahr_you_are_herobrine_reborn:necronomicon",
+    "count": 1
+  }
+}
